@@ -1,15 +1,14 @@
 package com.company;
 
 public class Giraffe extends Mammal implements Prey{
-    String giraffeSpeciality;
+    private String giraffeSpeciality;
 
     public Giraffe(String name, int age, int speed, String giraffeSpeciality) {
         super(name, age, speed);
         this.giraffeSpeciality = giraffeSpeciality;
     }
 
-    @Override
-    public String toString() {
-        return "";
+    public void show(){
+        System.out.println(getName() + "," + getAge() + "," + getSpeed() + "," + giraffeSpeciality);
     }
 }
