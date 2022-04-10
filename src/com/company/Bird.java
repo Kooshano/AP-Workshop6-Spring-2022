@@ -1,6 +1,6 @@
 package com.company;
 
-public abstract class Bird extends Animal {
+public class Bird extends Animal implements Prey{
     private int heightOfFlight;
 
     public Bird(String name, int age, int heightOfFlight) {

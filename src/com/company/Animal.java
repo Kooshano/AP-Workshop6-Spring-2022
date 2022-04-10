@@ -17,4 +17,5 @@ public abstract class Animal{
         return age;
     }
 
+    public void show() {};
 }
